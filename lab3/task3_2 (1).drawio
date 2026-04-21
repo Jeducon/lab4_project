@@ -1,0 +1,162 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Сторінка-1" id="51x8NqW94EPfL72bpu2u">
+    <mxGraphModel dx="1239" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="fyqishMEUh1P4yDsOpfF-1" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="399" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-2" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-1" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="414" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Ідентифікувати читача" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-4" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-3" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="340" as="sourcePoint" />
+            <mxPoint x="414" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Перевірити заборгованості читача" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Є прострочені книги?" vertex="1">
+          <mxGeometry height="80" width="80" x="374" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-7" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-5" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fyqishMEUh1P4yDsOpfF-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="440" as="sourcePoint" />
+            <mxPoint x="480" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-8" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-6" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="310" y="480" as="sourcePoint" />
+            <mxPoint x="270" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Відмовити у видачі, повідомити про борг" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Так" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-11" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-6" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="480" />
+            </Array>
+            <mxPoint x="480" y="490" as="sourcePoint" />
+            <mxPoint x="560" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Обрати книгу" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-13" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-12" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="730" as="sourcePoint" />
+            <mxPoint x="560" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Перевірити доступність примірника" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-15" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-14" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="570" y="850" as="sourcePoint" />
+            <mxPoint x="560" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="Є доступний примірник?" vertex="1">
+          <mxGeometry height="80" width="80" x="520" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-17" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-16" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="640" y="890" as="sourcePoint" />
+            <mxPoint x="700" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Запропонувати бронювання або іншу книгу" vertex="1">
+          <mxGeometry height="60" width="120" x="700" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ні" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-20" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-16" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="fyqishMEUh1P4yDsOpfF-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="860" as="sourcePoint" />
+            <mxPoint x="420" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Створити запис позики" vertex="1">
+          <mxGeometry height="60" width="120" x="334" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-22" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-21" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="380" y="1030" as="sourcePoint" />
+            <mxPoint x="430" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-23" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-21" style="endArrow=classic;html=1;rounded=0;exitX=0.378;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="fyqishMEUh1P4yDsOpfF-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="1010" as="sourcePoint" />
+            <mxPoint x="320" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Записати дату видачі та термін повернення" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-25" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Оновити історію позик користувача" vertex="1">
+          <mxGeometry height="60" width="120" x="279" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-26" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-25" style="endArrow=classic;html=1;rounded=0;exitX=0.689;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="360" y="1160" as="sourcePoint" />
+            <mxPoint x="380" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-27" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-24" style="endArrow=classic;html=1;rounded=0;exitX=0.368;exitY=1.043;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="450" y="1130" as="sourcePoint" />
+            <mxPoint x="430" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Оновити історію позик читача" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-29" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-28" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="420" y="1250" as="sourcePoint" />
+            <mxPoint x="400" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Видати книгу користувачу" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-31" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-30" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="400" y="1400" as="sourcePoint" />
+            <mxPoint x="400" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-32" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Кінець" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="fyqishMEUh1P4yDsOpfF-33" edge="1" parent="1" source="fyqishMEUh1P4yDsOpfF-9" style="endArrow=classic;html=1;rounded=0;exitX=0.424;exitY=1.012;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" target="fyqishMEUh1P4yDsOpfF-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="1390" />
+            </Array>
+            <mxPoint x="220" y="680" as="sourcePoint" />
+            <mxPoint x="270" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
